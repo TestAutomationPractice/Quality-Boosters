@@ -3,18 +3,16 @@ package com.qualityboosters.qa.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage extends UiPage {
 
-	@FindBy(name="password")
+	@FindBy(xpath="//*[@placeholder='username']")
 	WebElement username;
 
-	@FindBy(name="username")
+	@FindBy(xpath="//*[@placeholder='password']")
 	WebElement password;
 
-	@FindBy(name="Cancel")
+	@FindBy(xpath="//*[text()='Login']")
 	WebElement submitBtn;
 
 	//Initializing the Page Objects:
@@ -28,7 +26,7 @@ public class LoginPage extends UiPage {
 		username.sendKeys(un);
 		password.sendKeys(pwd);
 		submitBtn.click();
-		Thread.sleep(5000); //for time being putting sleep
+		Thread.sleep(3000);
 	}
 
 }

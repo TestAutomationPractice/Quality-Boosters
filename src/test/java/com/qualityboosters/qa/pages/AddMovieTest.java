@@ -20,9 +20,8 @@ public class AddMovieTest extends TestBase {
 	}
 	
 	@Test
-	public void addTitle() {
-		addMovie.addMovieTitle("title");
+	public void addMovieDetails() {
+		addMovie.addMovieDetails("Tere Bin Nahi Jeena", "Rohit Kumar Sahu", "Comedy Drama for Family", "Comedy", '2' , "https://urlabctest.com");
 	}
-
 	
 }

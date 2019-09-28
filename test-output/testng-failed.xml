@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.qualityboosters.qa.pages.AddMovieTest">
+      <class name="com.qualityboosters.qa.pages.AddMovieParllelTest">
         <methods>
-          <include name="addTitle"/>
+          <include name="logout"/>
+          <include name="verifyMovie"/>
           <include name="init"/>
+          <include name="addMovieDetails"/>
         </methods>
-      </class> <!-- com.qualityboosters.qa.pages.AddMovieTest -->
+      </class> <!-- com.qualityboosters.qa.pages.AddMovieParllelTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

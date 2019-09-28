@@ -5,6 +5,7 @@
     <classes>
       <class name="com.qualityboosters.qa.pages.LoginPageTest"/>
       <class name="com.qualityboosters.qa.pages.AddMovieTest"/>
+      <class name="com.qualityboosters.qa.pages.AddMovieParllelTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
