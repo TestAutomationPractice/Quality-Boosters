@@ -1,0 +1,11 @@
+1. Observed a new button with # on home screen.
+2. Clicking on Hash button displays Movies and Login links
+3. Changes in the xpath(name) of elements identified earlier.
+
+Handling Changes:
+
+1. handled the new webelement (hash button) in the code and modified scripts accordingly.
+2. updated locators for elements.
+
+
+ 
